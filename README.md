@@ -8,7 +8,7 @@ Every challenge is a survival action — not a lesson.
 
 ## Status
 
-> 🚧 In development — V1 (terminal version) in progress
+> V1 (terminal version) — built and playable
 
 ---
 
@@ -48,7 +48,8 @@ You learn by doing. The story only moves forward when your code works.
 | Layer | Tool |
 |-------|------|
 | Language | Python |
-| Terminal colors | `rich` |
+| Terminal output | `rich` |
+| Visual effects | Boot sequence, glitch text, ASCII chapter art, answer flash effects |
 | Save system | JSON (local) |
 | Code execution | `exec()` with stdout capture + validation |
 
@@ -62,7 +63,7 @@ You learn by doing. The story only moves forward when your code works.
 ├── requirements.txt      # Dependencies (rich)
 ├── game/
 │   ├── __init__.py
-│   ├── display.py        # Color output via rich
+│   ├── display.py        # Terminal output, visual effects, boot sequence
 │   ├── save.py           # Save/load progress
 │   ├── engine.py         # Game loop, input handling, answer validation
 │   └── chapters.py       # All story content and challenges
@@ -86,16 +87,24 @@ Requires Python 3.8+
 
 ### V1 — Terminal (current)
 - [x] Project design and curriculum
-- [ ] Core engine and save system
-- [ ] Chapter 1–5 content
-- [ ] Answer validation and hint system
+- [x] Core engine and save system
+- [x] All 5 chapters with story content
+- [x] Answer validation and hint system
+- [x] Visual effects — boot sequence, glitch text, ASCII art, flash feedback
 - [ ] Playtesting and polish
+- [ ] Additional chapters
 
 ### V2 — Browser
 - [ ] Backend for safe Python execution (Railway or Cloudflare Workers)
 - [ ] Web frontend with story panels and progress UI
 - [ ] Chapter select and color themes
 - [ ] Port after V1 is stable and fun
+
+---
+
+## License
+
+Personal use only. No commercial use, redistribution, or modification without permission. See LICENSE for details.
 
 ---
 
