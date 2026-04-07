@@ -1,6 +1,6 @@
 # The Last Signal
 
-A terminal-based Python learning game. You're a survivor-detective in a collapsed civilization. You've found an old terminal broadcasting encrypted messages. Python is the only tool that can decrypt them.
+A terminal-based Python learning game. You're a survivor in a collapsed civilization. You've found an old terminal broadcasting encrypted messages. Python is the only tool that can decrypt them.
 
 Every challenge is a survival action — not a lesson.
 
